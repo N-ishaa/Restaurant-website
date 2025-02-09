@@ -1,2 +1,2 @@
-Welcome to the Restaurant Website repository! 
-It includes features such as Home, Gift Cards, Reservation, Menu and Contact. This project is a simple, user-friendly University Website designed using only HTML and CSS.
+Welcome to the  Restaurant Website repository! 
+This project name is Restaurant Website it is a responsive Restaurant Website. It includes features such as Home,Reservation, Menu, About and Contact. The goal of this website is to offer a modern, user-friendly, and responsive interface that can be accessed from any device, enhancing both customer satisfaction and operational efficiency. Built using modern web technologies such as HTML, CSS and  leverages a small amount of JavaScript.

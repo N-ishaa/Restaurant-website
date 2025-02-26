@@ -10,13 +10,14 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel = "shortcut icon" href="images/V&J.png" type="images/x-icon">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" href="images/V&J.png" type="images/x-icon">
 
 </head>
 
 <body>
+    <div id="preloader"></div>
     <header>
         <nav class="container">
 
@@ -62,10 +63,10 @@
             </div>
         </section>
 
-        <section class="parallex-image-sec">
+        <section class="parallex-image-sec" id="parallex">
             <div class="parallex-image"></div>
         </section>
-        <section id="menu">
+        <section id="menu" claas="block">
             <div class="menu">
                 <div class="img-1"></div>
                 <div class="img-2"></div>
@@ -119,108 +120,94 @@
         </section>
 
 
-            <section class="event-special" id="about">
-                <div class="container">
-                    <h2>Happenings</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <div class="special-events">
-                        <div class="img3">
-                            <h3>Valentine's day dinner</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventor
-                                sapiente.</p>
-                        </div>
-                        <div class="img4">
-                            <h3>Festive Restaurant Week</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventor
-                                sapiente.</p>
-                        </div>
-                        <div class="img5">
-                            <h3>Meet Strawberry Daiquiri</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventor
-                                sapiente.</p>
-                        </div>
+        <section class="event-special" id="about">
+            <div class="container">
+                <h2>Happenings</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="special-events">
+                    <div class="img3">
+                        <h3>Valentine's day dinner</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventor
+                            sapiente.</p>
                     </div>
-                    <div class="join">
-                        <h1>JOIN OUR BEVY!</h1>
-                        <p>Join our mailing list and keep up with all the exciting things.</p>
-                        <button class="sixth-btn">Reserve</button>
+                    <div class="img4">
+                        <h3>Festive Restaurant Week</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventor
+                            sapiente.</p>
+                    </div>
+                    <div class="img5">
+                        <h3>Meet Strawberry Daiquiri</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventor
+                            sapiente.</p>
                     </div>
                 </div>
-                
-            </section>
+                <div class="join">
+                    <h1>JOIN OUR BEVY!</h1>
+                    <p>Join our mailing list and keep up with all the exciting things.</p>
+                    <button class="sixth-btn">Reserve</button>
+                </div>
+            </div>
+
+        </section>
     </main>
 
-    <section class="footer-upper">
-        <section id="contact" class="contact">
-            <h1>Contact Us For Info.</h1>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
 
 
-        <div class="contact">
-            <div class="container">
-                <div class="mb-5 text-center">
-                    <h5>Let's Start a Conversation!</h5>
-                </div>
-    
-                <div class="row">
-                    <div class="col-lg-5 col-md-5">
-                        <h4 class="fw-bold">Contact Info</h4>
-                        <ul class="info list-unstyled">
-                            <li class="d-flex align-item-center ">
-                                <span class="pe-3 ti-location-pin fs-5"></span>
-    
-                                <p><a href=""><i class="fa-solid fa-location-dot"></i> Lorem ipsum dolor sit amet,
-                                        consectetur</a></p>
-                            </li>
-                            <li class="d-flex align-item-center">
-                                <span class="pe-3 ti-mobile fs-5"></span>
-                                <p><a href=""><i class="fa-solid fa-phone"></i> +91 998-998-9999</a></p>
-                            </li>
-                            <li class="d-flex align-item-center">
-                                <span class="pe-3 ti-enevlope fs-5"></span>
-                                <p><a href=""> <i class="fa-solid fa-envelope"></i> Info@HeadlineHub.in</a></p>
-                            </li>
-                        </ul>
+    <div class="new_home_web" id="contact">
+        <div class="responsive-container-block big-container">
+            <img class="imgBG" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw65.png">
+            <div class="responsive-container-block textContainer">
+                <div class="topHead">
+                    <p class="text-blk heading">
+                        Contact
+                        <span class="orangeText">
+                            US
+                        </span>
+                    </p>
+                    <div class="orangeLine" id="w-c-s-bgc_p-2-dm-id">
                     </div>
-                    <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" id="name"
-                                            placeholder="Your name">
+                </div>
+                <p class="text-blk subHeading">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna al iqua.
+                </p>
+            </div>
+            <div class="responsive-container-block container">
+                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-7 wk-ipadp-10 line" id="i69b">
+                    <form class="form-box">
+                        <div class="container-block form-wrapper">
+                            <div class="responsive-container-block">
+                                <div class="left4">
+                                    <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6"
+                                        id="i10mt-2">
+                                        <input class="input" id="ijowk-2" name="FirstName" placeholder="First Name">
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <input class="input" id="indfi-2" name="Last Name" placeholder="Last Name">
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <input class="input" id="ipmgh-2" name="Email" placeholder="Email Address">
+                                    </div>
+                                    <div
+                                        class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 lastPhone">
+                                        <input class="input" id="imgis-2" name="PhoneNumber" placeholder="Phone Number">
                                     </div>
                                 </div>
-    
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="Email address">
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea class="textarea" name="message" cols="30" row="4" id="message"
-                                            placeholder="Enter Your Message"></textarea>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <button class="btn btn-danger"><span class="ti-rocket pe-2 fs-5">Send
-                                                Message</span></button>
-                                    </div>
+                                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12"
+                                    id="i634i-2">
+                                    <textarea class="textinput" id="i5vyy-2" placeholder="Message"></textarea>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                            <a class="send" href="#" id="w-c-s-bgc_p-1-dm-id">
+                                Send
+                            </a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
-
-    <footer >
+    </div>
+    <footer>
         <section class="footer-lower">
             <p>Copyright © 2022 VEG <i class="fa-brands fa-d-and-d"></i> JUICE</p>
             <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
